@@ -15,7 +15,7 @@ const navigation = [
 
 export default function Example() {
   return (
-    <div className="relative flex justify-between  py-10 px-20">
+    <div className="relative flex justify-between   py-10 px-20 ">
       <div className="">
         <img src={logo} alt="logo" />
       </div>
@@ -24,7 +24,7 @@ export default function Example() {
           {navigation.map((element, index) => {
             return (
               <li key={element.name}>
-                <span className="text-base text-white">
+                <span className="text-base text-white hover:text-bermuda">
                   {' '}
                   <span className="text-bermuda pr-1">{index + 1}.</span>
                   {element.name}
