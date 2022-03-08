@@ -15,7 +15,7 @@ const navigation = [
 
 export default function Example() {
   return (
-    <div className="relative flex justify-between   py-10 px-20 lg:px-10 md:px-12 ">
+    <div className="relative flex justify-between   py-10 px-36 lg:px-10 md:px-12 ">
       <div className="">
         <img src={logo} alt="logo" />
       </div>
