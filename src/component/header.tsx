@@ -15,12 +15,12 @@ const navigation = [
 
 export default function Example() {
   return (
-    <div className="relative flex justify-between   py-10 px-20 ">
+    <div className="relative flex justify-between   py-10 px-20 lg:px-10 md:px-12 ">
       <div className="">
         <img src={logo} alt="logo" />
       </div>
-      <div className="flex justify-between w-1/2 pr-8">
-        <ul className="flex gap-16  ">
+      <div className="flex justify-between w-2/4 pr-8 xl:self-center md:hidden lg:w-2/3">
+        <ul className="flex gap-16 xl:gap-8 lg:gap-6 ">
           {navigation.map((element, index) => {
             return (
               <li key={element.name}>

@@ -3,16 +3,18 @@ import React from 'react';
 
 export default function Main() {
   return (
-    <div className="px-36 h-[87vh] pt-36 ">
-      <p className="text-bermuda text-base py-2 font-bitter">Hi, my name is</p>
-      <h1 className="text-silver text-7.5xl leading-[88px] py-2 ">
+    <div className="px-36 h-[87vh] pt-36 lg:px-24 lg:h-fit md:pt-16 sm:px-16 ssm:px-8">
+      <p className="text-bermuda text-base py-2 font-bitter sm:py-0">
+        Hi, my name is
+      </p>
+      <h1 className="text-silver text-7.5xl leading-[88px] py-2 md:text-[60px] sm:text-[46px] sm:h-[80px] sm:py-0">
         Sayah Reda
       </h1>
-      <h1 className="text-wbermuda text-7.5xl leading-[72px] py-2">
+      <h1 className="text-wbermuda text-[80px] leading-[72px] py-2 lg:text-[50px] md:text-[40px] sm:text-[36px]  sm:py-2 ssm:h-fit sm:leading-8">
         I build things for the web.
       </h1>
-      <h3 className="text-wbermuda text-[20px] leading-[26px] w-1/3 py-6">
-        I’m a software engineer specializing in building (and occasionally
+      <h3 className="text-wbermuda text-[20px] leading-[26px] w-2/5 py-8 xl:w-2/3 sm:w-full sm:text-[16px] sm:pb-6 sm:py-4 ">
+        I’m a software engineer specializing in building (and occasionall
         designing) exceptional digital experiences. Currently, I’m focused on
         building accessible, human-centered products at Upstatement.
       </h3>
