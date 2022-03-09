@@ -5,11 +5,11 @@ import typescriptpic from '../imgs/typescript.svg';
 import netlifypic from '../imgs/netlify.svg';
 export default function Work() {
   return (
-    <div className=" hidden h-fit pl-36 pr-20 px-36 h-[70rem]  lg:px-24 lg:pt-36 sm:p-16 ssm:px-8">
+    <div className="  h-fit pl-36 pr-20 px-36 mb-24 lg:px-24 lg:pt-36 sm:p-16 ssm:px-8">
       <h1 className="text-[60px]  leading-[88px]  text-silver py-6 sm:text-[40px]">
         My Work
       </h1>
-      <div className="flex  justify-center gap-[4%] h-96 flex-wrap mx-auto 2xl:w-full xl:w-full">
+      <div className="flex  justify-center gap-[4%] gap-y-12 flex-wrap mx-auto 2xl:w-full xl:w-full">
         <div className="profile border w-[20rem]   ">
           <div className="info flex hover:bg-black flex-col justify-between h-full py-12 px-8">
             <h1 className="text-white text-center text-[20px] ">

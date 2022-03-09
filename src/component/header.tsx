@@ -17,7 +17,7 @@ export default function Example() {
   return (
     <div className="relative flex justify-between   py-10 px-36 lg:px-10 md:px-12 ">
       <div className="">
-        <img src={logo} alt="logo" />
+        <img src={logo} alt="logo" className="w-[50px]" />
       </div>
       <div className="flex justify-between w-2/4 pr-8 xl:self-center md:hidden lg:w-2/3">
         <ul className="flex gap-16 xl:gap-8 lg:gap-6 ">

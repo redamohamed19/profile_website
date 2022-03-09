@@ -3,7 +3,7 @@ import React from 'react';
 
 export default function Main() {
   return (
-    <div className="px-36 h-[87vh] pt-36 lg:px-24 lg:h-fit md:pt-16 sm:px-16 ssm:px-8">
+    <div className="px-36 h-[87vh] pt-36 md:pt-[3rem] lg:px-24 lg:h-fit md:pt-16 sm:px-16 ssm:px-8">
       <p className="text-bermuda text-base py-2 font-bitter sm:py-0">
         Hi, my name is
       </p>
