@@ -5,7 +5,7 @@ import typescriptpic from '../imgs/typescript.svg';
 import netlifypic from '../imgs/netlify.svg';
 export default function Work() {
   return (
-    <div className="h-fit pl-36 pr-20 px-36 h-[24rem]  lg:px-24 lg:pt-36 sm:p-16 ssm:px-8">
+    <div className=" hidden h-fit pl-36 pr-20 px-36 h-[70rem]  lg:px-24 lg:pt-36 sm:p-16 ssm:px-8">
       <h1 className="text-[60px]  leading-[88px]  text-silver py-6 sm:text-[40px]">
         My Work
       </h1>
@@ -28,7 +28,7 @@ export default function Work() {
             <button className="browse">browse</button>
           </div>
         </div>{' '}
-        <div className="profile border w-[20rem]   ">
+        <div className="profile profile2 border w-[20rem]   ">
           <div className="info flex hover:bg-black flex-col justify-between h-full py-12 px-8">
             <h1 className="text-white text-center text-[20px] ">
               DesignPal Mobile App
