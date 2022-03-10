@@ -40,8 +40,24 @@
   border-radius: 15px;
   height: 500px;
 }
-.profile2 {
-  background: url('./imgs//project2.png');
+.profile1 {
+  background: url('./imgs//project1.png');
+  background-size: cover;
+}
+.profile3 {
+  background: url('./imgs//project3.png');
+  background-size: cover;
+}
+.profile4 {
+  background: url('./imgs//project4.png');
+  background-size: cover;
+}
+.profile5 {
+  background: url('./imgs//project5.png');
+  background-size: cover;
+}
+.profile6 {
+  background: url('./imgs//project6.png');
   background-size: cover;
 }
 .profile:hover {
@@ -89,6 +105,9 @@
   border-radius: 4px;
   margin: 0 auto;
 }
+.browsea {
+  margin: 0 auto;
+}
 .info {
   opacity: 0;
 }
@@ -97,4 +116,47 @@
 }
 .contactinput {
   border: 1px #64ffda solid;
+}
+
+.close {
+  animation: closenavbar 1s 1;
+  right: 0;
+}
+.open {
+  animation: closenavbar 1s 1;
+  right: 800px;
+}
+
+@keyframes opennavbar {
+  from {
+    transform: translate(1000px);
+  }
+  to {
+    right: 0;
+  }
+}
+@keyframes Clicked {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.25, 1.5);
+  }
+}
+@keyframes noClicked {
+  from {
+    transform: scale(1.25, 1.5);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+@keyframes closenavbar {
+  from {
+    right: 0px;
+  }
+  to {
+    transform: translate(1000px);
+  }
 }

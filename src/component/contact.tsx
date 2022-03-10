@@ -5,7 +5,10 @@ import phone from '../imgs/phone.svg';
 
 export default function Contact() {
   return (
-    <div className=" pl-36 pr-20 px-36 mb-36  lg:px-24 lg:pt-36 sm:p-16 ssm:px-8">
+    <div
+      className=" pl-36 pr-20 px-36 mb-36  lg:px-24 lg:pt-36 sm:p-16 ssm:px-8"
+      id="contact"
+    >
       <h1 className="text-[60px]  leading-[88px]  text-silver py-6 sm:text-[40px]">
         Contact Me
       </h1>
