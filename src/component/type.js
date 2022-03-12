@@ -24,5 +24,5 @@ export default function TypedReactHooksDemo() {
     };
   }, []);
 
-  return <span style={{ whiteSpace: 'pre' }} ref={el} />;
+  return <span ref={el} />;
 }

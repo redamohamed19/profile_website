@@ -25,7 +25,7 @@ export default function Main() {
       </h3>
       <a href="#contact">
         {' '}
-        <button className="text-bermuda border rounded px-6 py-2">
+        <button className="text-bermuda border rounded px-6 py-2 hover:bg-bermuda hover:text-[#000] hover:border-none">
           Contact me
         </button>
       </a>

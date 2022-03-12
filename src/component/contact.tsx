@@ -12,10 +12,10 @@ export default function Contact() {
       <h1 className="text-[60px]  leading-[88px]  text-silver py-6 sm:text-[40px]">
         Contact Me
       </h1>
-      <div className="flex md:gap-[3rem] md:flex-col sm:flex-col  ssm:flex-col">
-        <div className="w-[45%] md:w-[100%] sm:w-[100%]  ssm:w-[100%]">
+      <div className="flex md:gap-[3rem] md:flex-col  sm:flex-col  ssm:flex-col">
+        <div className="w-[45%] md:w-[100%] sm:w-[100%]  ssm:w-[100%] md:mb-16">
           {' '}
-          <p className="text-wbermuda text-[20px]">
+          <p className="text-wbermuda text-justify text-[20px]">
             I’m interested in freelance opportunities – especially ambitious or
             large projects. However, if you have other request or question,
             don’t hesitate to use the form.
@@ -40,13 +40,13 @@ export default function Contact() {
             />
             <br />
             <input
-              className="contactinput bg-transparent text-white my-5  px-5 py-3 rounded text-[20px] w-full"
+              className="contactinput bg-transparent text-white my-5  px-5 py-3 rounded text-[20px] w-full h-36"
               placeholder="Message"
               type="text"
             />
             <br />
             <input
-              className="contactinput text-bermuda rounded my-5  px-20 py-2 absolute right-0"
+              className="contactinput text-bermuda rounded my-5  px-20 py-2 absolute right-0 hover:bg-bermuda hover:text-[#000] hover:border-none"
               type="submit"
               value="send"
             />
