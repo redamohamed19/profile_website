@@ -20,28 +20,32 @@ export default function Contact() {
             large projects. However, if you have other request or question,
             don’t hesitate to use the form.
           </p>
-          <form className="relative">
+          <form className="relative" action="POST" data-netlify="true">
             <div className="my-5 flex gap-[8%]  ssm:flex-col">
               <input
                 className="contactinput ssm:mb-6 bg-transparent w-[46%] text-white px-5 py-3 rounded text-[20px] ssm:w-[100%]"
                 placeholder="Name"
+                name="name"
                 type="text"
               />
               <input
                 className="contactinput bg-transparent w-[46%] text-white px-5 py-3 rounded text-[20px] ssm:w-[100%]"
                 placeholder="Email"
+                name="email"
                 type="email"
               />
             </div>
             <input
               className="contactinput bg-transparent text-white my-5 px-5 py-3 rounded text-[20px] w-full"
               placeholder="Subject"
+              name="subject"
               type="text"
             />
             <br />
             <input
               className="contactinput bg-transparent text-white my-5  px-5 py-3 rounded text-[20px] w-full h-36"
               placeholder="Message"
+              name="message"
               type="text"
             />
             <br />

@@ -28,7 +28,7 @@ export default function Footer() {
           {' '}
           <img src={github} className="sm:w-[40px]" />
         </a>
-        <a href="itter.com/Reda93526483" target="_blank">
+        <a href="https://twitter.com/Reda93526483" target="_blank">
           {' '}
           <img src={twitter} className="sm:w-[40px]" />{' '}
         </a>

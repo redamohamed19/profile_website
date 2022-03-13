@@ -66,7 +66,7 @@ export default function Example() {
           } 
           }`}
         >
-          <ul className="flex flex-col gap-16 xl:gap-8 lg:gap-6 px-28 ">
+          <ul className="flex flex-col gap-16 xl:gap-8 lg:gap-6 items-center ">
             {navigation.map((element, index) => {
               return (
                 <li key={element.name} className="py-4">
