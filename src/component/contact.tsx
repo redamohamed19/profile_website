@@ -54,11 +54,12 @@ export default function Contact() {
               type="text"
             />
             <br />
-            <input
+            <button
               className="contactinput text-bermuda rounded my-5  px-20 py-2 absolute right-0 hover:bg-bermuda hover:text-[#000] hover:border-none"
               type="submit"
-              value="send"
-            />
+            >
+              Send
+            </button>
           </form>
         </div>
         <div className="w-[45%] self-start xl:w-1/2 lg:w-1/2 md:w-[100%]">
