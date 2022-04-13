@@ -39,7 +39,7 @@ export default function Contact() {
             <input
               className="contactinput bg-transparent text-white my-5 px-5 py-3 rounded text-[20px] w-full"
               placeholder="Subject"
-              name="subject"
+              name="Subject"
               type="text"
             />
             <br />

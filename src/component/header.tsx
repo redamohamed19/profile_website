@@ -38,7 +38,7 @@ export default function Example() {
           })}
         </ul>
         <a
-          href="https://drive.google.com/file/d/17PII3ojUH1tYg5faUswxmjkdyMJXQ-ph/view?usp=sharing"
+          href="https://drive.google.com/file/d/1rizYaRxwUcqn-vrPe9c633hAjAkjiGyu/view?usp=sharing"
           target="_blank"
         >
           <p className="p-resume  text-bermuda border px-2 py-1 rounded hover:bg-bermuda hover:text-[#000] hover:border-none">
