@@ -52,6 +52,9 @@ export default function Main() {
                 <a target="_blank">TypeScript</a>
               </li>
               <li>
+                <a target="_blank">MongoDB</a>
+              </li>
+              <li>
                 <a target="_blank">REST</a>
               </li>
               <li>
